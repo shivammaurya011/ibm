@@ -1,0 +1,46 @@
+body{
+    background-color: #02bdd5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+#keyboard{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    font: 1em sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: #202727;
+    border-radius: 10px;
+    bottom: none;
+}
+
+#keyboard div{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+#keyboard input{
+    padding: 10px 20px;
+    color: #02bdd5;
+    border: none;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #474c50;
+}
+
+#keyboard input:hover{
+    background-color: #515457;
+}
+
+#space{
+    padding: 0 50px !important;
+}
+
